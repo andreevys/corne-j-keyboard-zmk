@@ -205,3 +205,5 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [41, 42]
   k: FN
+- p: [40, 41]
+  k: $$mdi:apple-keyboard-option$$
