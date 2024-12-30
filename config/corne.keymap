@@ -70,11 +70,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
-
-        combo_layer {
-            bindings = <&mo 3>;
-            key-positions = <41 42>;
-        };
     };
 
     keymap {
@@ -123,28 +118,7 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        raise_layer {
-            display-name = "SYMBOL";
-
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
-            bindings = <
-&kp TAB    &kp TAB       &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp F1   &kp F2   &kp F3    &kp F4   &kp RPAR  &kp BSPC
-&kp LCTRL  &trans        &mkp LCLK     &mkp MCLK  &mkp RCLK  &trans       &mmv MOVE_DOWN   &kp F5   &kp F6   &kp F7    &kp F8   &kp BSLH  &kp GRAVE
-&kp LSHFT  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp F9   &kp F10  &kp F11   &kp F12  &kp PIPE  &kp TILDE
-                         &trans        &kp LGUI   &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp RET  &trans   &kp RALT
-                                                                          &mkp LCLK
-            >;
-
-            label = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_3 {
+        layer_2 {
             display-name = "mouse";
             bindings = <
 &kp TAB    &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6                             &kp F7                          &kp F8                             &kp F9        &kp F10          &kp F11
