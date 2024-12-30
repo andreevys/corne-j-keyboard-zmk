@@ -40,7 +40,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '-', h: '=', s: _}
-  - F12
+  - $$mdi:mouse-right-click-outline$$
   - LGUI
   - NUMBER
   - $$mdi:keyboard-space$$
