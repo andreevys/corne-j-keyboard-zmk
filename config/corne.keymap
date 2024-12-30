@@ -75,6 +75,11 @@
             bindings = <&mo 3>;
             key-positions = <41 42>;
         };
+
+        combo_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <40 41>;
+        };
     };
 
     keymap {
@@ -99,7 +104,7 @@
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         lower_layer {
