@@ -147,7 +147,7 @@ layers:
   - {type: held}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
-  FN:
+  Mouse:
   - $$mdi:keyboard-tab$$
   - F1
   - F2
@@ -189,17 +189,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - LGUI
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - {type: held}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:mouse-left-click-outline$$
 combos:
-- p: [11, 12]
+- p: [10, 11]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [24, 25]
+- p: [24, 23]
   k: $$mdi:backspace-reverse-outline$$
-- p: [0, 1]
+- p: [1, 2]
   k: $$mdi:keyboard-esc$$
+- p: [41, 42]
+  k: Mouse

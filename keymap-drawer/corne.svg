@@ -548,17 +548,22 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
 <g class="combo backspace combopos-0">
-<rect rx="6" ry="6" x="854" y="64" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="859" y="68" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+<rect rx="6" ry="6" x="798" y="54" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="58" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="854" y="120" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="859" y="124" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="114" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="98" y="54" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="58" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="334" y="275" width="28" height="26" class="combo"/>
+<a href="#Mouse">
+<text x="348" y="288" class="combo tap layer-activator">Mouse</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 405)" class="layer-NUMBER">
@@ -824,17 +829,22 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
 </g>
 <g class="combo backspace combopos-0">
-<rect rx="6" ry="6" x="854" y="64" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="859" y="68" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+<rect rx="6" ry="6" x="798" y="54" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="58" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="854" y="120" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="859" y="124" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="114" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="98" y="54" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="58" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="334" y="275" width="28" height="26" class="combo"/>
+<a href="#Mouse">
+<text x="348" y="288" class="combo tap layer-activator">Mouse</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 811)" class="layer-SYMBOL">
@@ -1096,21 +1106,26 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
 </g>
 <g class="combo backspace combopos-0">
-<rect rx="6" ry="6" x="854" y="64" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="859" y="68" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+<rect rx="6" ry="6" x="798" y="54" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="58" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="854" y="120" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="859" y="124" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="114" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="98" y="54" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="58" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="334" y="275" width="28" height="26" class="combo"/>
+<a href="#Mouse">
+<text x="348" y="288" class="combo tap layer-activator">Mouse</text>
+</a></g>
 </g>
 </g>
-</g>
-<g transform="translate(40, 1216)" class="layer-FN">
-<text x="0" y="28" class="label" id="FN">FN:</text>
+<g transform="translate(40, 1216)" class="layer-Mouse">
+<text x="0" y="28" class="label" id="Mouse">Mouse:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 77)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1342,15 +1357,14 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">LGUI</text>
 </g>
-<g transform="translate(314, 276) rotate(30.0)" class="key trans keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(314, 276) rotate(30.0)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
-<g transform="translate(382, 299) rotate(30.0)" class="key keypos-42">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
+<g transform="translate(382, 299) rotate(30.0)" class="key held keypos-42">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-38" width="40" height="68" class="key held"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key held tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(518, 84)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1379,17 +1393,22 @@ rect.held, rect.combo.held {
 <use href="#mdi:mouse-left-click-outline" xlink:href="#mdi:mouse-left-click-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:mouse-left-click-outline"/>
 </g>
 <g class="combo backspace combopos-0">
-<rect rx="6" ry="6" x="854" y="64" width="28" height="26" class="combo backspace"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="859" y="68" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+<rect rx="6" ry="6" x="798" y="54" width="28" height="26" class="combo backspace"/>
+<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="803" y="58" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 <g class="combo combopos-1">
-<rect rx="6" ry="6" x="854" y="120" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="859" y="124" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+<rect rx="6" ry="6" x="798" y="110" width="28" height="26" class="combo"/>
+<use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="803" y="114" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="42" y="64" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="68" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+<rect rx="6" ry="6" x="98" y="54" width="28" height="26" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="103" y="58" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="334" y="275" width="28" height="26" class="combo"/>
+<a href="#Mouse">
+<text x="348" y="288" class="combo tap layer-activator">Mouse</text>
+</a></g>
 </g>
 </g>
 </svg>
