@@ -70,6 +70,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        combo_layer {
+            bindings = <&mo 3>;
+            key-positions = <41 42>;
+        };
     };
 
     keymap {
