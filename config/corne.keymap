@@ -54,7 +54,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <30>;
+        #tap-ms = <30>;
     };
 
     combos {
@@ -98,7 +98,7 @@
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {
