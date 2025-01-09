@@ -13,6 +13,13 @@
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
 
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+#define U_MS_U &mmv MOVE_UP
+#define U_MS_D &mmv MOVE_DOWN
+#define U_MS_L &mmv MOVE_LEFT
+#define U_MS_R &mmv MOVE_RIGHT
+
 / {
     behaviors {
         td0: td0 {
@@ -47,7 +54,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <60>;
+        tap-ms = <30>;
     };
 
     combos {
@@ -91,7 +98,7 @@
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN C_AC_SCROLL_UP>;
         };
 
         lower_layer {
@@ -117,13 +124,6 @@
 
         layer_2 {
             display-name = "mouse";
-
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             bindings = <
 &kp TAB    &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6                             &kp F7                          &kp F8                             &kp F9        &kp F10          &kp F11
 &kp LCTRL  &bt BT_CLR       &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &mmv MOVE_DOWN   &trans                             &mkp LCLK                       &mkp MCLK                          &mkp RCLK     &kp PRINTSCREEN  &kp F12
@@ -137,7 +137,5 @@
         };
     };
 };
-
-
 
 
