@@ -94,7 +94,7 @@
             >;
 
             label = "QWERTY";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN C_AC_SCROLL_UP>;
         };
 
         lower_layer {
